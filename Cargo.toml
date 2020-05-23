@@ -1,0 +1,10 @@
+[package]
+name = "bswam"
+version = "0.1.0"
+authors = ["Benjamin Herr <ben@0x539.de>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+fs_extra = "1.1.0"
