@@ -8,3 +8,7 @@ edition = "2018"
 
 [dependencies]
 reqwest = { version = "0.10.4", features = ["blocking"] }
+
+[sys-dependencies]
+openssl = true
+pkgconfig = true

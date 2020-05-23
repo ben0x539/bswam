@@ -5,9 +5,8 @@ build script doesn't find openssl, because there's no way for a project
 maintainer to instruct cargo to run rustc and build scripts inside the
 appropriate nix-shell invocation, so you have to figure that out for yourself?
 
-No more! Just apply this one weird trick: Put your app into a subdirectory and
-invoke cargo from inside this wrapper app instead<sup>1</sup>! It will work, as
-if by magic!
+No more! Just apply this one weird trick: Put your app into a subdirectory, add
+the nix attr paths to your Cargo.toml, and your users can just invoke cargo from inside this wrapper app! It will work, as if by magic!<sup>1</sup>
 
 ---
 
