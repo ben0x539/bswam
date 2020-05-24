@@ -10,5 +10,5 @@ the nix attr paths to your Cargo.toml, and your users can just invoke cargo from
 
 ---
 
-<sup>1</sup> May require some modification of all the hardcoded bits. Also your crate better only has one binary at src/main.rs, no tests, etc.
+<sup>1</sup> May require some modification of all the hardcoded bits. Also your crate had better only have one binary at src/main.rs, no tests, etc.
 
